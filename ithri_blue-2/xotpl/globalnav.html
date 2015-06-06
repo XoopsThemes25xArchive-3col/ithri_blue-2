@@ -1,0 +1,64 @@
+
+	
+		<div id="xo-navheader">
+			<ul>
+				<li id="xo<{if $xoops_dirname == ""}>-current<{/if}>">
+					<a href="<{xoAppUrl index.php}>" accesskey="1"><span>Acceuil</span></a>
+				</li>
+				<li id="xo<{if $xoops_dirname == "news"}>-current<{/if}>">
+					<a href="<{xoAppUrl modules/news}>"><span>Articles</span></a>
+				</li>
+				<li id="xo<{if $xoops_dirname == "faq"}>-current<{/if}>">
+					<a href="<{xoAppUrl modules/smartfaq}>"><span>F.A.Q</span></a>
+				</li>
+				<li id="xo<{if $xoops_dirname == "WebPlanet"}>-current<{/if}>">
+					<a href="<{xoAppUrl modules/webplanet}>"><span>WebPlanet</span></a>
+				</li>
+				<li id="xo<{if $xoops_dirname == "downloads"}>-current<{/if}>">
+					<a href="<{xoAppUrl modules/mydownloads}>"><span>Téléchargements</span></a>
+				</li>
+				<li id="xo<{if $xoops_dirname == "extgallery"}>-current<{/if}>">
+					<a href="<{xoAppUrl modules/extgallery}>"><span>Photos</span></a>
+				</li>
+				
+			</ul>
+			<!-- start wox login-->	
+		
+		<div id="top-links-container">
+	<div class="login_links" id="wox-login-all">
+    	<div class="wox_search">
+        	   	<form   action="<{xoAppUrl search.php}>" method="get">
+					<input type="text"  name="query" />
+					<input id="search_button" type="submit" value="" />
+							
+								</form>
+        </div>
+        <div class="the_links">
+        <{if $xoops_isuser}>
+            <span class="icons">
+			    <a href="<{xoAppUrl /user.php}>"><img src="<{xoImgUrl img/profile.png}>" alt="Mon profil" title="Voir son profil" /></a>
+            	 <{xoInboxCount assign=pmcount}>
+				 
+            	<a href="<{$xoops_url}>/notifications.php" title="Notifications"><img src="<{$xoops_imageurl}>img/alerts.png" alt="Notifications" /></a>
+				<{if $pmcount}><!-- si j'ai des messages --><a href="<{xoAppUrl www/viewpmsg.php}>"><img src="<{xoImgUrl img/emailin.png}>" alt="(<{$pmcount}>) Messages" title="Vous avez <{$pmcount}> messages non lues" />
+                <{else}>
+				<a href="<{$xoops_url}>/viewpmsg.php" title="Private Messages"><img src="<{$xoops_imageurl}>img/email.png" alt="Messages" /><{/if}></a>
+			</span>
+            <a href="<{$xoops_url}>/user.php?op=logout">Quitter</a>
+           
+        <{else}>
+            <a href="<{$xoops_url}>/modules/profile/register.php">Register</a>  <a href="<{$xoops_url}>/user.php" id="wox-login-link">| &nbsp; Login &nbsp;&nbsp; </a>
+        <{/if}>
+    	</div>
+	</div>
+
+</div>
+<!--End wox login-->
+		</div>
+		
+	<br style="clear: both;" />
+	</div>
+			
+		
+</div>
+<div id="xo-top-shadow" class="xo-top-shadow"></div>

@@ -1,0 +1,86 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	margin-bottom:	1em; width:185px ;
+		
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle {
+    font-family:"Malgun Gothic", AppleGothic, Dotum, Sans-serif; 
+    padding: 4px;  
+	font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+	font-weight: bold; 
+    border-bottom:2px solid #139EE8;
+    margin-left:20px;	
+	
+    
+}
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	 padding-left: 14px;
+
+	
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	margin-bottom:	1em; width:185px;
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+    font-family:"Malgun Gothic", AppleGothic, Dotum, Sans-serif;
+	padding: 4px;  
+	font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+	font-weight: bold;
+	border-bottom:2px solid #139EE8;
+	margin-right:20px;
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color: #666666;
+	 padding-right: 12px;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color :#458B00;
+  font-weight: bold;
+  font-family:"Malgun Gothic", AppleGothic, Dotum, Sans-serif;
+  font-size: 1.3em;
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  padding: 5px 8px 8px 8px;
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color: #458B00;
+  font-weight: bold;
+  font-family:"Malgun Gothic", AppleGothic, Dotum, Sans-serif;
+  font-size: 1.3em;
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  padding: 5px 8px 8px 8px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+

@@ -1,0 +1,312 @@
+/* --------- Hypertext links --------- */
+a {  
+	background-color: transparent;
+	color: #0560A6;
+	text-decoration: none;
+}
+a:hover { color:#FF7F00; }
+
+
+h1, h2, h3, h4, h5, h6 { 
+  margin: 					1em 0 .5em 0;
+  line-height: 				1.2; 
+  font-weight: 				bold;
+  font-style: 				normal; 
+}
+h1 {	font-size: 1.4em; font-weight: bold;}
+h2 {font-size: 1.2em;}
+h3 {	padding-bottom: 3px; font-size: 1em;}
+h4 {	font-size: 1em;	font-weight: bold;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+/* ===== images ===== */
+img { border: 0 !important; margin-right:.5em;}
+img.xo-icons {margin-bottom:-3px;}
+p img { margin-left: .5em; margin-right:.5em;}
+a img:hover, a img:focus {opacity:.5; filter: alpha(opacity=50);}
+a img { border: none;}
+.imgsmile {padding:0 !important; border:0 !important; margin-bottom:-2px !important;}
+img.xo-icons {margin-bottom:-3px;}
+/* ===== other attributes of contents ===== */
+p {	margin-top: .5em; margin-bottom: .5em;}
+hr{
+	height: 				1px;
+	padding: 				0;
+	color: 					#ddd;
+	background-color: 		#ddd;
+	border: 				0;
+}
+strong, b, dfn { font-weight: bold;}
+del { text-decoration: line-through;}
+address	{ font-style: normal; letter-spacing: .1em;}
+q, cite, em, dfn, strong { font-style:italic;}
+bdo {	direction: ltr;}
+acronym, abbr, abbr[title], dfn { border-bottom: 1px dashed; cursor: help;}
+abbr[title] { border-bottom: 1px dotted; cursor: help;} 
+acronym:hover, abbr:hover { border-bottom: #139EE8 1px dashed;}
+::selection { background-color: #E7F4F7;	color: #139EE8;}
+::-moz-selection { background-color: #E7F4F7;	color: #139EE8;}
+/* ===== lists ===== */
+#xo-canvas-content ol {
+	margin: 					.5em 0 .5em .5em;
+	padding: 					0;
+	list-style-type: 			decimal;
+}
+#xo-canvas-content ul {
+	margin: 					.5em 0 .5em .5em;
+	padding: 0;
+	list-style: 				decimal inside;
+	text-align: 				left;
+}
+#xo-canvas-content li {
+	margin-left: 				2px;
+	line-height: 				1.4em;
+	list-style:					square inside;
+}
+#xo-canvas-content ul ul, #xo-canvas-content ol ol { padding-left: 2em; }
+#xo-canvas-content ul ul li, #xo-canvas-content ol ol li {font-size: .9em; font-style: italic; list-style: circle;}
+#xo-canvas-content dd {}
+#xo-canvas-content dl {}
+#xo-canvas-content dt {}
+dl { margin: .75em 0;} 
+dt { margin: .75em 0 0 0; font-weight: bold;} 
+dd { margin: .25em 0 .25em 1em; }
+
+
+
+table {
+	width: 100%;
+	text-align:left;
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 0;  
+}
+th {
+	padding: 4px;
+	vertical-align: middle;
+	background-color: #3a3a3a;
+	color:#FFFFFF;
+}
+
+/* ===== other attributes of contents ===== */
+p {
+	margin-top: 			.5em;
+	margin-bottom:			.5em;
+}
+hr{
+	height: 				1px;
+	padding: 				0;
+	color: 					#ddd;
+	background-color: 		#ddd;
+	border: 				0;
+}
+strong, b, dfn { font-weight: bold;}
+del { text-decoration: line-through;}
+address	{ font-style: normal; letter-spacing: .1em;}
+q, cite, em, dfn, strong { font-style:italic;}
+bdo {	direction: ltr;}
+acronym, abbr, abbr[title], dfn { border-bottom: 1px dashed; cursor: help;}
+abbr[title] { border-bottom: 1px dotted; cursor: help;} 
+acronym:hover, abbr:hover { border-bottom: #32529C 1px dashed;}
+/* ===== lists ===== */
+ol {
+	margin: 					.5em 0 .5em .4em;
+	padding: 					0;
+	list-style-type: 			decimal;
+}
+ul {
+	
+	padding: 4px;
+	list-style: 				decimal inside;
+	text-align: 				left;
+}
+li {
+	margin-left: 				2px;
+	background-color: 			inherit;
+	color: 						#639ACE;
+	line-height: 				1.4em;
+	list-style:					square inside;
+}
+dd {}
+dl {}
+dt {}
+dl { margin: .75em 0;} 
+dt { margin: .75em 0 0 0; font-weight: bold;} 
+dd { margin: .25em 0 .25em 2em; }
+
+
+.outer {
+	padding: 2px;
+	/*border: 1px solid #ccc;*/
+}
+.head {
+	background-color: #D2ECF9;
+	padding: 5px;
+	font-weight: bold;
+}
+.even {
+	background: #FAFAFA;
+	padding: 5px;
+}
+.odd {
+	background: #FCFCFC;
+	padding: 5px;
+}
+.foot {
+	background-color: #D2ECF9;
+	padding: 5px;
+	font-weight: bold;
+}
+tr.even td {
+	background: #FAFAFA;
+	padding: 5px;
+}
+tr.odd td {
+	background: #FCFCFC;
+	padding: 5px;
+}
+
+/* --------- Core messages --------- */
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	color: #136C99;  
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+/* --------- Codes and Quotes --------- */
+.xoopsCode {
+	max-height: 200px;
+	margin: 6px;
+	background-color: #fafafa;
+	padding: 6px; 
+	overflow: auto;
+	color: #666;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	font-size: .9em; 
+	
+}
+.xoopsQuote {
+	margin: 6px;
+	background: #fafafa url("../img/quote.gif") no-repeat 5px 10px;  
+	padding: 6px 6px 6px 40px;  
+	font-style: normal;
+	border: 1px solid #e1e1e1;
+	border-left: 3px solid #639ACC; 
+}
+
+/* ===== articles (content-type in example) ===== */
+.item { color:#666;}
+.itemHead {
+	 font-size: 				1.2em;
+	 font-weight:				bold;
+	 font-family:				"Malgun Gothic", AppleGothic, Dotum, Sans-serif;
+	 border-bottom:				2px solid #6B6B6C;
+}
+.itemInfo {
+	background-color: 			transparent;
+	padding: 					3px;
+	color: 						inherit;
+	font-size:					.9em;
+	text-align: 				right;
+}
+.itemTitle {}
+.itemTitle a { background-color: transparent; color: #333;}
+.itemTitle a:hover {color:#ff9900; text-shadow: 	1px 1px 2px #aaa;}
+.itemPoster { font-size: .9em; font-style: italic;}
+.itemPostDate { font-size: .9em; font-style: italic;}
+.itemStats { font-size: .9em; font-style: italic;}
+.itemBody {padding-left: 		5px;}
+.itemText {
+	margin-top: 				5px;
+	margin-bottom: 				5px;
+	line-height: 				1.5em;
+}
+.itemText:first-letter { font-size: 1.3em; font-weight: bold;}
+.itemFoot {
+	background-color: 			transparent;
+	padding: 					3px;
+	color: 						inherit;
+	font-size: 					.9em;
+	text-align: 				right;
+}
+.itemAdminLink {font-size: 	.9em;}
+.itemPermaLink {font-size: 	.9em;}
+
+/* --------- Forums and Comments --------- */
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color: #fff;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+	border: 1px solid #ccc;   
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+
+
+
+

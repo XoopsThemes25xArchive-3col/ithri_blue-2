@@ -1,0 +1,181 @@
+/* --------- Stylesheets incorporation --------- */
+@import url("content.css");
+@import url("blocks.css");
+@import url("forms.css");
+@import url("globalnav.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	background: #DAF2FE ;
+		
+		
+}
+body {
+	font-family:				"Lucida Grande", Verdana, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 984px;
+	margin: 0 auto;    
+	background:  url("../img/content.jpg") repeat-y top;
+	
+}
+
+
+
+
+
+
+#xo-canvas {
+	background: url("../img/header.jpg") no-repeat;
+	width: 984px;
+	margin: 0 auto;
+	
+}
+#xo-canvas-content {
+    text-align:justify;
+	color:#333 ;
+}
+
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+
+}
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+    
+}
+/* --------- Header --------- */
+#xo-header {
+	height: 130px;
+
+}
+
+#banner {
+	float:right;
+	padding-right:60px;
+	padding-top: 25px;
+	width:468px;
+	height:60px;
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding-left:40px;
+	padding-top:14px;
+} 
+
+
+
+
+/*--- Top Blocks ---*/
+#xo-top-shadow {
+	height: 22px;
+	background: url("../img/shadow.jp") no-repeat center;
+	width: 956px;
+	padding-top:30px;
+	margin-left:15px;
+	
+
+}
+
+
+
+
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background-color: transparent;
+	background: url("../img/footer.jpg") no-repeat center bottom;
+	width: 984px;
+	height:128px;
+	
+}
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #808080;
+	padding: 0px 20px;
+	vertical-align: middle;
+	text-align: center;	
+	padding-top:80px;
+}
+.xo-foottext a{
+	color: #2771BA;
+	text-decoration: none;
+}
+.xo-foottext a:hover{
+	color: #2771BA;
+	text-decoration: underline;
+}
+
+.rss { float: right; padding: 5px 5px 0 0;}
+.rss a:hover {	text-decoration: none;}
+
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	padding-bottom:10px;
+	
+}
+#mainmenu a {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  display: block;
+  margin: 0;
+  padding: 6px;
+  font-size: 1em; 
+  font-weight:					bold;
+	
+}
+#mainmenu a:hover { color:#ff9900; text-shadow: 	1px 1px 2px #aaa;}
+#mainmenu a.menuTop {
+padding-left: 15px;
+
+
+}
+#mainmenu a.menuMain {
+padding-left: 15px;
+font-size: 1em; 
+font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px; color:#575757 ;
+  font-size: .9em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+
+
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 6px;
+}
+#usermenu a:hover { color:#ff9900; text-shadow: 	1px 1px 2px #aaa;}
+#usermenu a.menuTop {}
+
+
+
+
+
+
+
+

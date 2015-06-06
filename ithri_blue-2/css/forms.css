@@ -1,0 +1,66 @@
+
+/* ===== forms ===== */
+fieldset { margin: .5em; padding : 1em;}
+legend {	padding: .5em; font-size: 1.1em; font-weight: bolder;}
+label {font-size: 1em; font-weight: normal !important; font-style:italic !important;}
+input, button, select {margin: .25em; vertical-align: middle; }
+input {
+	border:						1px solid;
+	border-color:				#aaa #ccc #ccc #aaa;
+	padding : 					2px 3px 2px 3px;
+	background-color:			#fff;
+	font-size:					1em;
+}
+button, input[type="submit"], input[type="button"], input[type="reset"] {
+	background-color: 			#F4F9FE;
+	color: 						#139EE8;
+	border:						1px solid;
+	border-color: 				#ccc;
+}
+input:hover, button:hover, .xo-formbuttons:hover, .formButton:hover {
+    border:           			#139EE8 solid 1px;
+    outline:                	1px solid #139EE8;
+}
+button:focus, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus, .xo-formbuttons:focus, .formButton:focus {
+	background-color:			#f4f4f4;
+	border-color :				#333;
+}
+input[type=checkbox], input[type=radio] {	margin: 3px; padding:2px !important; height:1em;}
+select { border:1px solid; border-color:#aaa #ccc #ccc #aaa;}
+select[name=timezone_offset] { font-size: .9em;}
+select:focus {
+	background-color:			#fff;
+	color: 						#333;
+	border:						1px solid #aaa;
+}
+textarea {
+	width: 						90%;
+	margin:						0.5em 0.5em 0.5em 0;
+	overflow: 					auto;
+	border:						1px solid;
+	border-color:				#aaa #ccc #ccc #aaa !important;
+	background-color:			#fff;
+	font-size:					1em;
+	height:						110px;
+}
+textarea:focus {
+	background-color:			#fff;
+	color: 						#333;
+    border:           			#139EE8 solid 1px;
+    outline:                	1px solid #139EE8;
+}
+#xo-page fieldset {
+	margin: 					0 0 1em 0;
+	padding:					1em;
+	border: 					none;
+}
+#xo-page legend { font-size: 1.1em; font-weight:	bold;}
+#xo-page label { font-weight: bold;}
+#xo-content .xo-formfield.required label:after .caption-marker {
+	background-color: 			transparent;
+	color: 						#ff0000;
+	content: 					'*';
+}
+.xoops-form-element-caption .caption-marker { display:none;}
+
+

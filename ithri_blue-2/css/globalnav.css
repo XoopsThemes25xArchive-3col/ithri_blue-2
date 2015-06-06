@@ -1,0 +1,107 @@
+/* --------- Navigation menu --------- */
+
+
+#xo-navheader {
+	height: 25px;
+	float: left; 
+	width: 984px;
+	font-family:"Malgun Gothic", AppleGothic, Dotum, Sans-serif;
+	font-weight: bold; 
+	padding: 0px 34px 0px 34px;
+	font-size: 1.2em;
+	
+}
+
+#xo-navheader li{
+	list-style-type: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#xo-navheader a{
+	float: left;
+	margin: 0;
+	padding: 0 0  0 8px; 
+	text-decoration: none;
+}
+#xo-navheader a :hover{
+	text-decoration: underline;
+	color:#ff9900; text-shadow: 	1px 1px 2px #aaa;
+}
+
+
+#xo-navheader a span{
+	display: block;
+	padding: 6px 12px  4px 4px; 
+	font-weight: bold; 
+	background: url("../img/header.jpg") no-repeat right top;
+}
+
+
+
+
+/* Login Links */
+div#top-links-container{
+	padding-top:1px;
+	width:360px;
+	float:right;
+	position:relative;
+	margin-right:40px;
+    
+}
+div#top-links-container div.login_links{
+   	overflow: hidden;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 2px 20px 2px 5px;
+	color: #213A4E;
+    
+    
+}
+div.login_links div.wox_search{
+    float:right;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    background: #FFF;
+    padding-left: 5px;
+	
+    
+}
+div.login_links input[type='text'],
+div.login_links input[type='password']{
+    border: 0;
+    background: #FFF;
+    width: 110px;
+     color: #666;
+	
+}
+
+
+div.login_links div.the_links{
+    float: right;
+    margin: 4px;
+}
+div#top-links-container a{
+	color: #213A4E;
+	text-decoration: none;
+}
+div#top-links-container a:hover{ color:#FF7F00;
+ 
+}
+div#top-links-container span.icons{
+    display: block;
+    float: right;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+#search_button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	background: url(../img/srh.png) no-repeat;
+	height: 16px;
+	width: 16px;
+	
+}
